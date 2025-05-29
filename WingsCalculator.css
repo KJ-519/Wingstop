@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Jaro:opsz@6..72&display=swap');
+
+
+
+body{background: #95abcc;}
+.main{ width:400px;
+margin: 0 auto;}
+img{width:100%;}
+h1{color:white;}
+.result {color: white;}
+
+
+h1{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.buttons {
+display: flex;
+margin: 0 auto;
+column-gap: 25px;
+margin-bottom: 20px;
+}
+
+.inputs {
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 15px;
+}
+
+.clear {
+color:#95abcc;
+height: 50px;
+width: 100px;
+font-size: 20px;
+border-radius: 5px;
+border-color: white;
+
+font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.equals {
+color:#95abcc;
+height: 50px;
+width: 100px;
+font-size: 20px;
+border-radius: 5px;
+border-color: white;
+
+font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.result {
+color: white;
+font-size: 25px;
+text-align: center;
+
+font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.input {
+width: 70%;
+height: 30px;
+border-radius: 8px;
+border-color: white;
+}
+
+img {
+border-radius: 5px;
+}
